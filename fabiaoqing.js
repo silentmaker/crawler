@@ -1,5 +1,3 @@
-// data-original="http://ww2.sinaimg.cn/bmiddle/9150e4e5gy1g6qlfb10avj20d70f7gmf.jpg"
-
 const fs = require('fs');
 const fetch = require('node-fetch');
 const Util = require('./utils.js');
@@ -49,5 +47,5 @@ class Fabiaoqing {
 
 new Fabiaoqing({
     tag: 'fabiaoqing_hot',
-    pageLimit: 5,
+    pageLimit: 10,
 }).run();
